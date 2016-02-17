@@ -1,0 +1,934 @@
+|somador_32_bits
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+Cin => Cin.IN1
+S[0] <= somador_completo:U1.port3
+S[1] <= somador_completo:U2.port3
+S[2] <= somador_completo:U3.port3
+S[3] <= somador_completo:U4.port3
+S[4] <= somador_completo:U5.port3
+S[5] <= somador_completo:U6.port3
+S[6] <= somador_completo:U7.port3
+S[7] <= somador_completo:U8.port3
+S[8] <= somador_completo:U9.port3
+S[9] <= somador_completo:U10.port3
+S[10] <= somador_completo:U11.port3
+S[11] <= somador_completo:U12.port3
+S[12] <= somador_completo:U13.port3
+S[13] <= somador_completo:U14.port3
+S[14] <= somador_completo:U15.port3
+S[15] <= somador_completo:U16.port3
+S[16] <= somador_completo:U17.port3
+S[17] <= somador_completo:U18.port3
+S[18] <= somador_completo:U19.port3
+S[19] <= somador_completo:U20.port3
+S[20] <= somador_completo:U21.port3
+S[21] <= somador_completo:U22.port3
+S[22] <= somador_completo:U23.port3
+S[23] <= somador_completo:U24.port3
+S[24] <= somador_completo:U25.port3
+S[25] <= somador_completo:U26.port3
+S[26] <= somador_completo:U27.port3
+S[27] <= somador_completo:U28.port3
+S[28] <= somador_completo:U29.port3
+S[29] <= somador_completo:U30.port3
+S[30] <= somador_completo:U31.port3
+S[31] <= somador_completo:U32.port3
+Cout <= somador_completo:U32.port4
+Signal <= somador_completo:U32.port3
+
+
+|somador_32_bits|somador_completo:U1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U1|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U1|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U2|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U2|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U3|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U3|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U4
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U4|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U4|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U5
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U5|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U5|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U6
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U6|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U6|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U7
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U7|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U7|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U8
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U8|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U8|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U9
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U9|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U9|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U10
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U10|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U10|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U11
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U11|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U11|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U12
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U12|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U12|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U13
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U13|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U13|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U14
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U14|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U14|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U15
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U15|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U15|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U16
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U16|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U16|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U17
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U17|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U17|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U18
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U18|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U18|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U19
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U19|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U19|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U20
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U20|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U20|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U21
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U21|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U21|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U22
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U22|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U22|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U23
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U23|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U23|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U24
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U24|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U24|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U25
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U25|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U25|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U26
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U26|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U26|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U27
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U27|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U27|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U28
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U28|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U28|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U29
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U29|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U29|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U30
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U30|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U30|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U31
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U31|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U31|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U32
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Soma <= meio_somador:U2.port2
+Cout <= U3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U32|meio_somador:U1
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_32_bits|somador_completo:U32|meio_somador:U2
+A => S.IN0
+A => C.IN0
+B => S.IN1
+B => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+

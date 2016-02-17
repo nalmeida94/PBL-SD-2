@@ -1,0 +1,14 @@
+module TB_somador_32_bits;
+ 
+	reg 	A_tb, B_tb, Cin_tb;
+	wire  Soma_tb, Cout_tb;
+ 
+somador_32_bits dut( A_tb, B_tb, Cin_tb, Soma_tb, Cout_tb);
+ 
+initial
+begin
+	A_tb = 32'b00000000000000000000000000000000;	B_tb = 32'b00000000000000000000000000000000;	Cin_tb = 1'b0; #1
+	A_tb = 32'b00000000000000000000000000000011;	B_tb = 32'b00000000000000000000000000000001;	Cin_tb = 1'b0; #1
+	A_tb = 32'b00000000000000000000000000000001;	B_tb = 32'b01111111111111111111111111111111;	Cin_tb = 1'b0; #1;
+end
+endmodule
