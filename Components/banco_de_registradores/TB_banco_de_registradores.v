@@ -1,122 +1,71 @@
 module TB_banco_de_registradores();
 
-
-	reg [31:0] In_tb;
+	reg [31:0] Data_to_write_tb;
+	reg [4:0] Read_1_tb, Read_2_tb, Address_to_write_tb;
 	reg Signal_write_tb,	Signal_reset_tb, Clock_in_tb;
-	wire [31:0] Data_tb;
+	wire [31:0] Out_1_tb, Out_2_tb;
 	integer error, qtdTestes;
 	
-banco_de_registradores dut(In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
+banco_de_registradores dut(Read_1_tb, Read_2_tb, Data_to_write_tb, Address_to_write_tb,
+				Signal_write_tb, Signal_reset_tb, Clock_in_tb, Out_1_tb, Out_2_tb);
 
 //CLOCK DE 5 EM 5
-always
-   #5  Clock_in_tb =  ! Clock_in_tb; 
+always   #5  Clock_in_tb =  ! Clock_in_tb; 
 
 	
 initial begin
 	error = 0;
 	qtdTestes = 0;
 	Clock_in_tb = 0;
-	
-	//SINAL DE ESCREVER COM CLOCK
+
+	//SINAL DE RESET COM CLOCK
 	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b00000000000000000000000000000000;
-	Signal_write_tb = 1'b1; Signal_reset_tb = 1'b0;  #6//Clock_in_tb = 1'b1; #1
-	if(Data_tb == 32'b00000000000000000000000000000000 )begin
-	end		
-	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
-		error = error+1;
+	Read_1_tb = 5'b0; Read_2_tb = 5'b1; Data_to_write_tb = 32'b0; Address_to_write_tb = 5'b0;
+	Signal_write_tb = 1'b0; Signal_reset_tb = 1'b1;  #6
+	Signal_reset_tb = 1'b0; #1
+	if(Out_1_tb == 32'b0 && Out_2_tb == 32'b0)begin
 	end
-	
-	//SEM CLOCK  COM SINAL DE ESCREVER
-	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b00000000000000000000000000011111;
-	Signal_write_tb = 1'b0; Signal_reset_tb = 1'b0;  #6//Clock_in_tb = 1'b1; #1
-	if(Data_tb == 32'b00000000000000000000000000000000 )begin
-	end		
 	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
+		$display("Read_1_tb = %x, Read_2_tb = %x, Data_to_write_tb = %x, Address_to_write_tb = %x",
+				Read_1_tb, Read_2_tb, Data_to_write_tb, Address_to_write_tb);
+		$display("Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Out_1_tb = %x, Out_2_tb = %x\n",
+				Signal_write_tb, Signal_reset_tb, Clock_in_tb, Out_1_tb, Out_2_tb);
 		error = error+1;
 	end
 	
 	//SINAL DE ESCREVER COM CLOCK
 	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b11110000000000000000000000001111;
-	Signal_write_tb = 1'b1; Signal_reset_tb = 1'b0;  #6//Clock_in_tb = 1'b0; #1
-	if(Data_tb == 32'b11110000000000000000000000001111 )begin
-	end		
-	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
-		error = error+1;
+	Read_1_tb = 5'b0; Read_2_tb = 5'b1; Data_to_write_tb = 32'd1; Address_to_write_tb = 5'b0;
+	Signal_write_tb = 1'b1; Signal_reset_tb = 1'b0;  #10
+	Signal_reset_tb = 1'b0; #1
+	if(Out_1_tb == 32'b0 && Out_2_tb == 32'b0)begin
 	end
-	
-	//SINAL DE ESCREVER SEM CLOCK
-	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b0000000000000000000000000000000;
-	Signal_write_tb = 1'b1; Signal_reset_tb = 1'b0;  #5//Clock_in_tb = 1'b1; #1
-	if(Data_tb == 32'b11110000000000000000000000001111 )begin
-	end		
 	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
-		error = error+1;
-	end
-	
-	//SEM SINAL DE ESCREVER COM CLOCK COM RESET
-	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b00000000000000000000000000001111;
-	Signal_write_tb = 1'b0; Signal_reset_tb = 1'b1;  #7//Clock_in_tb = 1'b1; #1
-	if(Data_tb == 32'b00000000000000000000000000000000 )begin
-	end		
-	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
-		error = error+1;
-	end
-	
-	//SINAL DE RESET COM CLOCK COM SINAL DE ESCREVER
-	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b00000000000000000000000000001111;
-	Signal_write_tb = 1'b1; Signal_reset_tb = 1'b1;  #6//Clock_in_tb = 1'b1; #1
-	if(Data_tb == 32'b00000000000000000000000000000000 )begin
-	end		
-	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
+		$display("Read_1_tb = %x, Read_2_tb = %x, Data_to_write_tb = %x, Address_to_write_tb = %x",
+				Read_1_tb, Read_2_tb, Data_to_write_tb, Address_to_write_tb);
+		$display("Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Out_1_tb = %x, Out_2_tb = %x\n",
+				Signal_write_tb, Signal_reset_tb, Clock_in_tb, Out_1_tb, Out_2_tb);
 		error = error+1;
 	end
 	
 	//SINAL DE ESCREVER COM CLOCK
 	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b10000000000000000000000000000011;
-	Signal_write_tb = 1'b1; Signal_reset_tb = 1'b0;  #10//Clock_in_tb = 1'b1; #1
-	if(Data_tb == 32'b10000000000000000000000000000011 )begin
-	end		
-	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
-		error = error+1;
+	Read_1_tb = 5'b0; Read_2_tb = 5'b1; Data_to_write_tb = 32'b0; Address_to_write_tb = 5'b0;
+	Signal_write_tb = 1'b0; Signal_reset_tb = 1'b0;  #6
+	Signal_reset_tb = 1'b0; #1
+	if(Out_1_tb == 32'b0 && Out_2_tb == 32'b0)begin
 	end
-	
-	//SINAL DE RESET SEM CLOCK
-	qtdTestes = qtdTestes + 1;
-	In_tb = 32'b00000000000000000000000000011111;
-	Signal_write_tb = 0'b0; Signal_reset_tb = 1'b1;  #3//Clock_in_tb = 1'b0; #1
-	if(Data_tb == 32'b10000000000000000000000000000011 )begin
-	end		
 	else begin
-		$display("In_tb = %x, Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Data_tb = %x",
-					In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
+		$display("Read_1_tb = %x, Read_2_tb = %x, Data_to_write_tb = %x, Address_to_write_tb = %x",
+				Read_1_tb, Read_2_tb, Data_to_write_tb, Address_to_write_tb);
+		$display("Signal_write_tb = %x, Signal_reset_tb = %x, Clock_in_tb = %x, Out_1_tb = %x, Out_2_tb = %x\n",
+				Signal_write_tb, Signal_reset_tb, Clock_in_tb, Out_1_tb, Out_2_tb);
 		error = error+1;
 	end
 	
 	
 	//ERROR MENSAGE
-	$display("\nTESTE DE PC 32 BITS:\n");
+	$display("\nTESTE DO BANCO DE REGISTRADORES:\n");
 	if(error != 0) begin
 		$display("%x erros no teste", error);
 	end

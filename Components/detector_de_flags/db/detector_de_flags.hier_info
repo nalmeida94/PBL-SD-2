@@ -1,0 +1,20 @@
+|detector_de_flags
+Signal_A => Overflow.IN0
+Signal_A => Overflow.IN0
+Signal_A => Overflow.IN0
+Signal_A => Overflow.IN0
+Signal_B => Overflow.IN1
+Signal_B => Overflow.IN1
+Signal_B => Overflow.IN1
+Signal_B => Overflow.IN1
+Signal_Result => Overflow.IN1
+Signal_Result => Overflow.IN1
+Signal_Result => Overflow.IN1
+Signal_Result => Overflow.IN1
+Seletion_Sum_Sub => Overflow.IN1
+Seletion_Sum_Sub => Overflow.IN1
+Seletion_Sum_Sub => Overflow.IN1
+Seletion_Sum_Sub => Overflow.IN1
+Overflow <= Overflow.DB_MAX_OUTPUT_PORT_TYPE
+
+
