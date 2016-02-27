@@ -1,15 +1,15 @@
-Fitter Status : Successful - Wed Feb 17 16:21:34 2016
+Fitter Status : Successful - Thu Feb 25 23:13:54 2016
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : banco_de_registradores
 Top-level Entity Name : banco_de_registradores
 Family : Cyclone IV GX
 Device : EP4CGX22CF19C6
 Timing Models : Final
-Total logic elements : 1,765 / 21,280 ( 8 % )
-    Total combinational functions : 1,425 / 21,280 ( 7 % )
-    Dedicated logic registers : 1,088 / 21,280 ( 5 % )
-Total registers : 1088
-Total pins : 114 / 167 ( 68 % )
+Total logic elements : 898 / 21,280 ( 4 % )
+    Total combinational functions : 705 / 21,280 ( 3 % )
+    Dedicated logic registers : 576 / 21,280 ( 3 % )
+Total registers : 576
+Total pins : 112 / 167 ( 67 % )
 Total virtual pins : 0
 Total memory bits : 0 / 774,144 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 80 ( 0 % )

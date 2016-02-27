@@ -9,8 +9,8 @@ module TB_pc();
 pc dut(In_tb, Signal_write_tb, Signal_reset_tb, Clock_in_tb, Data_tb);
 
 //CLOCK DE 5 EM 5
-always
-   #5  Clock_in_tb =  ! Clock_in_tb; 
+always begin
+   #5  Clock_in_tb =  ! Clock_in_tb; end
 
 	
 initial begin

@@ -26,6 +26,20 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	somador_completo
 
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB_ula_32_bits
+
+Top level modules:
+	TB_ula_32_bits
+
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB_pc
+
+Top level modules:
+	TB_pc
+
 } {} {}} D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module subtrator_completo
@@ -39,13 +53,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	TB_shifter_right_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_pc
-
-Top level modules:
-	TB_pc
 
 } {} {}} D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -186,5 +193,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	shifter_right_32_bits
+
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ula_32_bits
+
+Top level modules:
+	ula_32_bits
 
 } {} {}}

@@ -1,0 +1,11 @@
+
+State Machine - |unidade_de_controle|CurrentState
+Name CurrentState.STATE_7_PlaceHolder CurrentState.STATE_6_PlaceHolder CurrentState.STATE_5_PlaceHolder CurrentState.STATE_4 CurrentState.STATE_3 CurrentState.STATE_2 CurrentState.STATE_1 CurrentState.STATE_Initial 
+CurrentState.STATE_Initial 0 0 0 0 0 0 0 0 
+CurrentState.STATE_1 0 0 0 0 0 0 1 1 
+CurrentState.STATE_2 0 0 0 0 0 1 0 1 
+CurrentState.STATE_3 0 0 0 0 1 0 0 1 
+CurrentState.STATE_4 0 0 0 1 0 0 0 1 
+CurrentState.STATE_5_PlaceHolder 0 0 1 0 0 0 0 1 
+CurrentState.STATE_6_PlaceHolder 0 1 0 0 0 0 0 1 
+CurrentState.STATE_7_PlaceHolder 1 0 0 0 0 0 0 1 
