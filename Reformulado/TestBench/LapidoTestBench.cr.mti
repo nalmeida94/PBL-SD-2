@@ -7,11 +7,4 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	pc
 
-} {} {}} D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc.vs {1 {vlog -work work -sv D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc.vs
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module pc_tb
-
-Top level modules:
-	pc_tb
-
 } {} {}}

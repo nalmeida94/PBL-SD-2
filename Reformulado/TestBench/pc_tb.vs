@@ -20,18 +20,18 @@ module pc_tb;
 		signal_reset = 0;
 		clock = 0;
 		count = 0;
+		error = 0;
 	end
 
 	/***************************************************************************************************************************
 	Task Responsável por resetar os valores dos registradores e checar os resultados.
 	****************************************************************************************************************************/	
+	
 	task setup;
 	begin
-		pc_in = 0;
-		signal_write = 0;
+		signal_reset = 1;
+		# 1;
 		signal_reset = 0;
-		clock = 0;
-		# 2;
 	end
 	endtask
 
@@ -43,10 +43,11 @@ module pc_tb;
 		if(value_expected!=value_received)
 		begin
 			$display("%s-Error: Esperado: %d, Recevido: %d",name_test,value_expected,value_received);
+			error++;
 		end
 		else
 		begin
-			$display("%s-OK",name_test);
+			$display("%s-OK: Esperado: %d, Recevido: %d",name_test,value_expected,value_received);
 		end
 	end
 	endtask
@@ -63,22 +64,35 @@ module pc_tb;
 	****************************************************************************************************************************/
 		count++;
 		signal_write = 1;
-		pc_in = 100;
-		@ (negedge clock);
+		pc_in = 172;//32'b10101100
+		# 2;
 		signal_write = 0;			
-		assertequals("Teste 1: Escrita",100,pc_out);
+		assertequals("Teste 1: Escrita",172,pc_out);
+		# 2;
 		setup();
+		# 2;
 	
 	/***************************************************************************************************************************
-	Teste 2: 
+	Teste 2: Reset
+	-Salva um valor, habilita signal_reset e checa se o valor zerou.
 	****************************************************************************************************************************/
-	//codigo teste2 ...
+		count++;
+		signal_write = 1;
+		pc_in = 100;//32'b1100100
+		# 2;
+		signal_write = 0;
+		signal_reset = 1;
+		# 2;
+		signal_reset = 0;
+		assertequals("Teste 2: Reset",0,pc_out);
+		# 2;
+		setup();
+		# 2;
 
 	/***************************************************************************************************************************
 	Final: 
 	-Exibe resultado final dos Testes.
 	****************************************************************************************************************************/
-		$display("Fim do teste");
-		
+		$display("Fim do teste. %d Teste(s) e %d error(s)",count,error);
 	end
 endmodule

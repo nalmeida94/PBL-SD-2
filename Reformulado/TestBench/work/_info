@@ -19,28 +19,28 @@ Z9 !s90 -reportprogress|300|-work|work|D:/temp/gitPBL/git/PBL-SD-2/Reformulado/C
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1456627927.277000
+Z11 !s108 1456750165.853000
 Z12 !s107 D:/temp/gitPBL/git/PBL-SD-2/Reformulado/Componentes/PC/pc.v|
 !s101 -O0
 vpc_tb
 Z13 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
 !i10b 1
-Z14 !s100 h1QWbOfbJVJo5kRlFX=ad2
-Z15 Ia?`XQgH3caOS;?2noMB]U0
-Z16 V`a]4kE:Z=9;R7XL7`jzL?0
-Z17 !s105 pc_vs_unit
+!s100 =IC3@lWU`KTEFE4I[Cg@O2
+IBgi?MGD0NT[[N2LzClJ<02
+Z14 V`a]4kE:Z=9;R7XL7`jzL?0
+Z15 !s105 pc_tb_vs_unit
 S1
 R4
-Z18 w1456627888
-Z19 8D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc.vs
-Z20 FD:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc.vs
+w1456750162
+Z16 8D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc_tb.vs
+Z17 FD:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc_tb.vs
 L0 1
 R8
 r1
 !s85 0
 31
-!s108 1456627927.480000
-!s107 D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc.vs|
-Z21 !s90 -reportprogress|300|-work|work|-sv|D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc.vs|
+!s108 1456750165.978000
+!s107 D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc_tb.vs|
+Z18 !s90 -reportprogress|300|-work|work|-sv|D:/temp/gitPBL/git/PBL-SD-2/Reformulado/TestBench/pc_tb.vs|
 !s101 -O0
-Z22 o-work work -sv -O0
+Z19 o-work work -sv -O0
