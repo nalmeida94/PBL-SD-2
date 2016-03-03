@@ -3,587 +3,198 @@ K3
 13
 cModel Technology
 Z0 dC:\altera\13.0sp1
-vand_32_bits
-Z1 !s100 ISJ`]BIGkM4]3>TNm_>On1
-Z2 IC]b409=EIMTeNoYdAjdVN3
-Z3 VSYMCP<OB]C0aPm]g[m]=83
+vbanco_de_registradores
+Z1 !s100 kzNWJV<g0S]MlZdXJORgP0
+Z2 IXYIQ4_@KUY]6kL@C`C[EW2
+Z3 VB_JJ1gHMz^H:P6fQN<<C<2
 Z4 dD:\Workspaces\Github\PBL-SD-2\Tests
-Z5 w1455129038
-Z6 8D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/and_32_bits.v
-Z7 FD:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/and_32_bits.v
+Z5 w1456993881
+Z6 8D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v
+Z7 FD:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v
 L0 1
 Z8 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/and_32_bits.v|
+Z9 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v|
 Z10 o-work work -O0
-Z11 !s108 1456453557.397000
-Z12 !s107 D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/and_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vbanco_de_registradores
-Z13 IQYn41RClLbH_M1F_=9GNB3
-Z14 VB_JJ1gHMz^H:P6fQN<<C<2
-R4
-Z15 w1456452747
-Z16 8D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v
-Z17 FD:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v
-L0 1
-R8
-r1
-31
-Z18 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v|
-R10
-Z19 !s100 klFR2XC4;j^aX8iA:49VJ2
-Z20 !s108 1456453562.359000
-Z21 !s107 D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v|
+Z11 !s108 1456993986.299000
+Z12 !s107 D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdetector_de_flags
-Z22 !s100 7jHJTo<>jQld1lPi3KaBF2
-Z23 IBb?5UN:ca1d<THadSHXWd0
-Z24 V03SbnO41A;@U3WJk=o6bB3
+Z13 !s100 7jHJTo<>jQld1lPi3KaBF2
+Z14 IBb?5UN:ca1d<THadSHXWd0
+Z15 V03SbnO41A;@U3WJk=o6bB3
 R4
-Z25 w1456405678
-Z26 8D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v
-Z27 FD:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v
+Z16 w1456405678
+Z17 8D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v
+Z18 FD:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v
 L0 1
 R8
 r1
 31
-Z28 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v|
+Z19 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v|
 R10
-Z29 !s108 1456453564.170000
-Z30 !s107 D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v|
+Z20 !s108 1456984942.468000
+Z21 !s107 D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vextensor_de_sinal
-Z31 !s100 9cQT<mjhz;QXiaoHg<A:V1
-Z32 II^=DhamFEZ34>;B<:3nKY0
-Z33 Vj0HJPG@>U=]1DUQb9cFQ30
+Z22 !s100 9cQT<mjhz;QXiaoHg<A:V1
+Z23 II^=DhamFEZ34>;B<:3nKY0
+Z24 Vj0HJPG@>U=]1DUQb9cFQ30
 R4
-Z34 w1455799799
-Z35 8D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v
-Z36 FD:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v
+Z25 w1455799799
+Z26 8D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v
+Z27 FD:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v
 L0 1
 R8
 r1
 31
-Z37 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v|
+Z28 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v|
 R10
-Z38 !s108 1456453563.669000
-Z39 !s107 D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vmeio_somador
-Z40 !s100 GdMOShlL;9SUUo<?nYk<71
-Z41 InJXhdmYV@dR@:GLm05>mW0
-Z42 V06M>cZW>MmlPzLOJjUN1m3
-R4
-Z43 w1455124963
-Z44 8D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/meio_somador.v
-Z45 FD:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/meio_somador.v
-L0 1
-R8
-r1
-31
-Z46 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/meio_somador.v|
-R10
-Z47 !s108 1456453559.534000
-Z48 !s107 D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/meio_somador.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vnot_32_bits
-Z49 !s100 ^mV3Rim8ZjTDAZ7aVYZ1P3
-Z50 I6:<JU<2DhW@gb`Wj6^2Dm0
-Z51 VL58O?nO^JTffE]nQbizLI0
-R4
-Z52 w1455136633
-Z53 8D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/not_32_bits.v
-Z54 FD:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/not_32_bits.v
-L0 1
-R8
-r1
-31
-Z55 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/not_32_bits.v|
-R10
-Z56 !s108 1456453558.193000
-Z57 !s107 D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/not_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vor_32_bits
-Z58 !s100 YAIbCW1DBhL6:2TVG:5FU2
-Z59 IHgKddIUcJZ8PiBn@:CaSF0
-Z60 V`aoeC_iXmEFA?=6mn<2]F2
-R4
-Z61 w1455136836
-Z62 8D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/or_32_bits.v
-Z63 FD:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/or_32_bits.v
-L0 1
-R8
-r1
-31
-Z64 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/or_32_bits.v|
-R10
-Z65 !s108 1456453558.895000
-Z66 !s107 D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/or_32_bits.v|
+Z29 !s108 1456984941.982000
+Z30 !s107 D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vpc
-Z67 !s100 d0U>BajQA?J8DH@XWB`RC1
-Z68 I7V]IXY@J_J8W7[ENeJCfm0
-Z69 Vo[g0^OcSXSNQzaOJ<dFkY0
+Z31 !s100 d0U>BajQA?J8DH@XWB`RC1
+Z32 I7V]IXY@J_J8W7[ENeJCfm0
+Z33 Vo[g0^OcSXSNQzaOJ<dFkY0
 R4
-Z70 w1455801461
-Z71 8D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v
-Z72 FD:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v
+Z34 w1455801461
+Z35 8D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v
+Z36 FD:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v
 L0 1
 R8
 r1
 31
-Z73 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v|
+Z37 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v|
 R10
-Z74 !s108 1456453561.236000
-Z75 !s107 D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vshifter_left_32_bits
-Z76 !s100 E?K<CZ[ZbR?HzT:ih0VJ^0
-Z77 I:ITK8=KO=kU^jc^>W=Z^F1
-Z78 V7hIeBcK5PAUZ?<M^O<dO?0
-R4
-Z79 w1455670586
-Z80 8D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/shifter_left_32_bits.v
-Z81 FD:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/shifter_left_32_bits.v
-L0 1
-R8
-r1
-31
-Z82 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/shifter_left_32_bits.v|
-R10
-Z83 !s108 1456453562.016000
-Z84 !s107 D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/shifter_left_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vshifter_right_32_bits
-Z85 !s100 o[eI_^kG2gfW9Rh;Dh@Vg0
-Z86 IG5BYZ]Q>3VaIjTaLZJmUW0
-Z87 Vez7410IooBDoF?2o@Z0>L2
-R4
-Z88 w1455670433
-Z89 8D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/shifter_right_32_bits.v
-Z90 FD:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/shifter_right_32_bits.v
-L0 1
-R8
-r1
-31
-Z91 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/shifter_right_32_bits.v|
-R10
-Z92 !s108 1456453561.657000
-Z93 !s107 D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/shifter_right_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vsomador_32_bits
-Z94 !s100 n7lW?^0ZWVba?kH77H6O[3
-Z95 I^2;G=z<9Le:oVFlln>19Y3
-Z96 V6a=Lf<KOJYWHHEN7bPVmO0
-R4
-Z97 w1456079956
-Z98 8D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v
-Z99 FD:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v
-L0 1
-R8
-r1
-31
-Z100 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v|
-R10
-Z101 !s108 1456453559.721000
-Z102 !s107 D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vsomador_completo
-Z103 !s100 _3omQLm8V]3Y`m4OoTcPX2
-Z104 IXhHZ>O_d^Mn=^N1g^GeYW3
-Z105 VB928keaZi_^3X@lb>J1g91
-R4
-Z106 w1455125648
-Z107 8D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_completo.v
-Z108 FD:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_completo.v
-L0 1
-R8
-r1
-31
-Z109 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_completo.v|
-R10
-Z110 !s108 1456453559.971000
-Z111 !s107 D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_completo.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vsubtrator_32_bits
-Z112 !s100 6Z^1Pg5f>b6[_61_K4a2Y1
-Z113 IIL?dOH`<=D6ZZ?]Izc@lX1
-Z114 VnG;Azi5UV@Z]Y54O?zX2C2
-R4
-Z115 w1456080054
-Z116 8D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_32_bits.v
-Z117 FD:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_32_bits.v
-L0 1
-R8
-r1
-31
-Z118 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_32_bits.v|
-R10
-Z119 !s108 1456453563.045000
-Z120 !s107 D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vsubtrator_completo
-Z121 !s100 TlVQlYC3TNcd_EiLk=95J2
-Z122 IilF9T2X4?HLm81nd:lNnh3
-Z123 V@Wh26`i@R@eLLgEije>:U3
-R4
-Z124 w1455795858
-Z125 8D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v
-Z126 FD:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v
-L0 1
-R8
-r1
-31
-Z127 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v|
-R10
-Z128 !s108 1456453563.435000
-Z129 !s107 D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vTB_and_32_bits
-Z130 !s100 j3bI;9HSnWU8[nS3enbId1
-Z131 IO=ICUW_l><KV6]Fb7@aWb3
-Z132 VBSCGCRDD:]dh83Ahmh@VL2
-R4
-Z133 w1455641781
-Z134 8D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/TB_and_32_bits.v
-Z135 FD:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/TB_and_32_bits.v
-L0 1
-R8
-r1
-31
-Z136 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/TB_and_32_bits.v|
-R10
-Z137 n@t@b_and_32_bits
-Z138 !s108 1456453557.881000
-Z139 !s107 D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/TB_and_32_bits.v|
+Z38 !s108 1456984940.373000
+Z39 !s107 D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vTB_banco_de_registradores
-Z140 Izi0lVVW11QPHKRNM=IJ[l1
-Z141 V`IFDifZVC35SbjIEgf3Wo3
-R4
-Z142 w1456452799
-Z143 8D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/TB_banco_de_registradores.v
-Z144 FD:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/TB_banco_de_registradores.v
-L0 1
-R8
-r1
-31
-Z145 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/TB_banco_de_registradores.v|
-R10
-Z146 n@t@b_banco_de_registradores
-Z147 !s100 Z[bdmdagjzA=6i5d5kHlQ3
-Z148 !s108 1456453562.593000
-Z149 !s107 D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/TB_banco_de_registradores.v|
 !i10b 1
-!s85 0
-!s101 -O0
-vTB_detector_de_flags
-Z150 !s100 kgHOQ>TSAe0O3So59[59]1
-Z151 I=h9G:hnKW@X;8Dko3dP=H2
-Z152 VE;^b^H4oc26cY7VF:9^cM0
+!s100 :Bl8<I2Eo]2PfdHf723`A2
+I:B^PVgKUUnS99kZHm;_RW1
+Z40 V`IFDifZVC35SbjIEgf3Wo3
 R4
-Z153 w1456411136
-Z154 8D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v
-Z155 FD:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v
+w1457023678
+Z41 8D:\Workspaces\Github\PBL-SD-2\Components\banco_de_registradores\TB_banco_de_registradores.v
+Z42 FD:\Workspaces\Github\PBL-SD-2\Components\banco_de_registradores\TB_banco_de_registradores.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1457023684.194000
+!s107 D:\Workspaces\Github\PBL-SD-2\Components\banco_de_registradores\TB_banco_de_registradores.v|
+Z43 !s90 -reportprogress|300|-work|work|D:\Workspaces\Github\PBL-SD-2\Components\banco_de_registradores\TB_banco_de_registradores.v|
+!s101 -O0
+R10
+Z44 n@t@b_banco_de_registradores
+vTB_detector_de_flags
+Z45 !s100 kgHOQ>TSAe0O3So59[59]1
+Z46 I=h9G:hnKW@X;8Dko3dP=H2
+Z47 VE;^b^H4oc26cY7VF:9^cM0
+R4
+Z48 w1456411136
+Z49 8D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v
+Z50 FD:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v
 L0 1
 R8
 r1
 31
-Z156 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v|
+Z51 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v|
 R10
-Z157 n@t@b_detector_de_flags
-Z158 !s108 1456453564.420000
-Z159 !s107 D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v|
+Z52 n@t@b_detector_de_flags
+Z53 !s108 1456984942.891000
+Z54 !s107 D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vTB_extensor_de_sinal
-Z160 !s100 S_zKW6HnD]<kCQSWEZgP<1
-Z161 IP0_GK>EMQEaI[HV9o?HcY2
-Z162 VTWb=?[G[??MZ_MF:MVjLX1
+Z55 !s100 S_zKW6HnD]<kCQSWEZgP<1
+Z56 IP0_GK>EMQEaI[HV9o?HcY2
+Z57 VTWb=?[G[??MZ_MF:MVjLX1
 R4
-Z163 w1455800782
-Z164 8D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v
-Z165 FD:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v
+Z58 w1455800782
+Z59 8D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v
+Z60 FD:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v
 L0 1
 R8
 r1
 31
-Z166 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v|
+Z61 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v|
 R10
-Z167 n@t@b_extensor_de_sinal
-Z168 !s108 1456453563.919000
-Z169 !s107 D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vTB_not_32_bits
-Z170 !s100 S323?=ZjGE:h6KiX7gXT;2
-Z171 IZK3cdLWCBR5jgVcDZ7RmL1
-Z172 VJLbO9aFKN<PKoO6HDIjiE2
-R4
-Z173 w1455641766
-Z174 8D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/TB_not_32_bits.v
-Z175 FD:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/TB_not_32_bits.v
-L0 1
-R8
-r1
-31
-Z176 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/TB_not_32_bits.v|
-R10
-Z177 n@t@b_not_32_bits
-Z178 !s108 1456453558.442000
-Z179 !s107 D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/TB_not_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vTB_or_32_bits
-Z180 !s100 _34fg]Qjj7d=[2nKBWT9P1
-Z181 IG^5]Vkk?<VF?AnA>nDOPO1
-Z182 VP2P?E[M<D8>GVeRZa84ZB2
-R4
-Z183 w1455641792
-Z184 8D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/TB_or_32_bits.v
-Z185 FD:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/TB_or_32_bits.v
-L0 1
-R8
-r1
-31
-Z186 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/TB_or_32_bits.v|
-R10
-Z187 n@t@b_or_32_bits
-Z188 !s108 1456453559.269000
-Z189 !s107 D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/TB_or_32_bits.v|
+Z62 n@t@b_extensor_de_sinal
+Z63 !s108 1456984942.210000
+Z64 !s107 D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vTB_pc
-Z190 !s100 T^ckz`f2Mnc9AJUCa@klN3
-Z191 ISV3S`QP^VRi]QgFY9GFOS0
-Z192 V5ZOT;zb7<GDc?ZSO@7<?71
+Z65 ISV3S`QP^VRi]QgFY9GFOS0
+Z66 V5ZOT;zb7<GDc?ZSO@7<?71
 R4
-Z193 w1455820398
-Z194 8D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v
-Z195 FD:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v
+Z67 w1455820398
+Z68 8D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v
+Z69 FD:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v
 L0 1
 R8
 r1
 31
-Z196 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v|
 R10
-Z197 n@t@b_pc
-Z198 !s108 1456453561.423000
-Z199 !s107 D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vTB_shifter_left_32_bits
-Z200 !s100 k=eDaLRf?HSaz`B_hQX;c2
-Z201 I>mEhDo`SNM=@X1b8cK`Qj0
-Z202 VLHNUa>3SB`1h^8kD_aYjD1
-R4
-Z203 w1455670759
-Z204 8D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/TB_shifter_left_32_bits.v
-Z205 FD:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/TB_shifter_left_32_bits.v
-L0 1
-R8
-r1
-31
-Z206 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/TB_shifter_left_32_bits.v|
-R10
-Z207 n@t@b_shifter_left_32_bits
-Z208 !s108 1456453562.172000
-Z209 !s107 D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/TB_shifter_left_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vTB_shifter_right_32_bits
-Z210 !s100 dXRJ6Ho5A><`NNQgf6Le22
-Z211 I=:K7mha2FfDha:LOOiJFe0
-Z212 VN0j0nkQAQTZMCVdJiYIAC3
-R4
-Z213 w1455670347
-Z214 8D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/TB_shifter_right_32_bits.v
-Z215 FD:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/TB_shifter_right_32_bits.v
-L0 1
-R8
-r1
-31
-Z216 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/TB_shifter_right_32_bits.v|
-R10
-Z217 n@t@b_shifter_right_32_bits
-Z218 !s108 1456453561.813000
-Z219 !s107 D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/TB_shifter_right_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vTB_somador_32_bits
-Z220 !s100 ]U72654Xm1<R`VYCBh@4A3
-Z221 ILDeO@=^Re=CFNRo0njLX[3
-Z222 VbhRn`MHPDnDRXzgSXaDa83
-R4
-Z223 w1455645091
-Z224 8D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/TB_somador_32_bits.v
-Z225 FD:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/TB_somador_32_bits.v
-L0 1
-R8
-r1
-31
-Z226 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/TB_somador_32_bits.v|
-R10
-Z227 n@t@b_somador_32_bits
-Z228 !s108 1456453560.143000
-Z229 !s107 D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/TB_somador_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vTB_subtrator_32_bits
-Z230 !s100 1S?C4YQ@6l80MSYK]JU7C2
-Z231 I;3heCiX<mdzaB:[8EDb1?2
-Z232 VkJVPC@mUS9_fjPf=`PadV3
-R4
-Z233 w1456080731
-Z234 8D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/TB_subtrator_32_bits.v
-Z235 FD:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/TB_subtrator_32_bits.v
-L0 1
-R8
-r1
-31
-Z236 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/TB_subtrator_32_bits.v|
-R10
-Z237 n@t@b_subtrator_32_bits
-Z238 !s108 1456453563.279000
-Z239 !s107 D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/TB_subtrator_32_bits.v|
+Z70 n@t@b_pc
+Z71 !s100 T^ckz`f2Mnc9AJUCa@klN3
+Z72 !s108 1456984940.891000
+Z73 !s107 D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v|
+Z74 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/pc/TB_pc.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vTB_ula_32_bits
-!i10b 1
-!s100 zS?g98^6@XRe5WlI[6W<53
-I6YcIzDbGGb380XZ6Eo9=:3
-Z240 Ve;PO<7Zfg<ZPVMUiGR5>?0
+Z75 !s100 zS?g98^6@XRe5WlI[6W<53
+Z76 I6YcIzDbGGb380XZ6Eo9=:3
+Z77 Ve;PO<7Zfg<ZPVMUiGR5>?0
 R4
-w1456426701
-Z241 8D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v
-Z242 FD:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v
-L0 1
-R8
-r1
-!s85 0
-31
-!s108 1456453565.122000
-!s107 D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v|
-Z243 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v|
-!s101 -O0
-R10
-Z244 n@t@b_ula_32_bits
-vTB_xor_32_bits
-Z245 !s100 ?CZGRa2LzHBAEc`Ce1B_C0
-Z246 I1Z3cAJ^aY8WYaJoCM0YV22
-Z247 Vm^VggoCNk`[oF@Q>SA9n51
-R4
-Z248 w1455669269
-Z249 8D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/TB_xor_32_bits.v
-Z250 FD:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/TB_xor_32_bits.v
+Z78 w1456426701
+Z79 8D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v
+Z80 FD:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v
 L0 1
 R8
 r1
 31
-Z251 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/TB_xor_32_bits.v|
+Z81 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v|
 R10
-Z252 n@t@b_xor_32_bits
-Z253 !s108 1456453560.471000
-Z254 !s107 D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/TB_xor_32_bits.v|
+Z82 n@t@b_ula_32_bits
+Z83 !s108 1456984943.906000
+Z84 !s107 D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vula_32_bits
-Z255 !s100 PPHglF[dT88k1AL1c0iFb1
-Z256 IYnB6lzWgll<O5_z>9TXi@3
-Z257 V4JmK@L:?DJP92D3k;=Lh00
+Z85 !s100 IUh8Y=G:AUT_OnAnlLHH]0
+Z86 I`HEh8NAmQGjH5D7<Km4=51
+Z87 Vzz@OSLU4eV;a:k=UAYFC^2
 R4
-Z258 w1456424230
-Z259 8D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v
-Z260 FD:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v
+Z88 w1456983095
+Z89 8D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v
+Z90 FD:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v
 L0 1
 R8
 r1
 31
-Z261 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v|
+Z91 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v|
 R10
-!i10b 1
-!s85 0
-Z262 !s108 1456453564.872000
-Z263 !s107 D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v|
-!s101 -O0
-vxor_32_bits
-Z264 !s100 e`>CmfIGkYf4G_DFcAf_43
-Z265 IP6Xo`7RjokdETg3YhKkfm2
-Z266 VQBlF:5M;=Wlf7dbBzW7W01
-R4
-Z267 w1455137000
-Z268 8D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/xor_32_bits.v
-Z269 FD:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/xor_32_bits.v
-L0 1
-R8
-r1
-31
-Z270 !s90 -reportprogress|300|-work|work|D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/xor_32_bits.v|
-R10
-Z271 !s108 1456453560.924000
-Z272 !s107 D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/xor_32_bits.v|
-!i10b 1
-!s85 0
-!s101 -O0
-vxor_32_bits_TB
-Z273 IMfWTcDhFj:QYHB^cf889V1
-Z274 VzEP<LX^C]D8R5mIOe;S[g1
-R4
-Z275 w1455137044
-R249
-R250
-L0 1
-R8
-r1
-31
-R251
-R10
-Z276 nxor_32_bits_@t@b
-R254
-Z277 !s100 3lIlOk?[5?;GzlIo6fA:Z0
-Z278 !s108 1455641268.014000
+Z92 !s108 1456984943.604000
+Z93 !s107 D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v|
 !i10b 1
 !s85 0
 !s101 -O0

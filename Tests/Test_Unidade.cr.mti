@@ -1,30 +1,51 @@
-D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/shifter_left_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/shifter_left_32_bits.v
+D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module shifter_left_32_bits
+-- Compiling module extensor_de_sinal
 
 Top level modules:
-	shifter_left_32_bits
+	extensor_de_sinal
 
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/and_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/and_32_bits.v
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module and_32_bits
+-- Compiling module detector_de_flags
 
 Top level modules:
-	and_32_bits
+	detector_de_flags
 
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/TB_somador_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/TB_somador_32_bits.v
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_somador_32_bits
+-- Compiling module banco_de_registradores
 
 Top level modules:
-	TB_somador_32_bits
+	banco_de_registradores
 
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_completo.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_completo.v
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module somador_completo
+-- Compiling module TB_extensor_de_sinal
 
 Top level modules:
-	somador_completo
+	TB_extensor_de_sinal
+
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TB_detector_de_flags
+
+Top level modules:
+	TB_detector_de_flags
+
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ula_32_bits
+
+Top level modules:
+	ula_32_bits
 
 } {} {}} D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/TB_ula_32_bits.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -39,166 +60,5 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	TB_pc
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_completo.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module subtrator_completo
-
-Top level modules:
-	subtrator_completo
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/TB_shifter_right_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/TB_shifter_right_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_shifter_right_32_bits
-
-Top level modules:
-	TB_shifter_right_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/somador_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module somador_32_bits
-
-Top level modules:
-	somador_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/or_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/or_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module or_32_bits
-
-Top level modules:
-	or_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/TB_shifter_left_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/shifter_left_32_bits/TB_shifter_left_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_shifter_left_32_bits
-
-Top level modules:
-	TB_shifter_left_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/pc/pc.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module pc
-
-Top level modules:
-	pc
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/subtrator_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module subtrator_32_bits
-
-Top level modules:
-	subtrator_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/banco_de_registradores.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module banco_de_registradores
-
-Top level modules:
-	banco_de_registradores
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/meio_somador.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/somador_32_bits/meio_somador.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module meio_somador
-
-Top level modules:
-	meio_somador
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/TB_detector_de_flags.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_detector_de_flags
-
-Top level modules:
-	TB_detector_de_flags
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/TB_not_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/TB_not_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_not_32_bits
-
-Top level modules:
-	TB_not_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/TB_or_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/or_32_bits/TB_or_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_or_32_bits
-
-Top level modules:
-	TB_or_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/TB_xor_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/TB_xor_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_xor_32_bits
-
-Top level modules:
-	TB_xor_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/TB_extensor_de_sinal.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_extensor_de_sinal
-
-Top level modules:
-	TB_extensor_de_sinal
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/TB_subtrator_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/subtrator_32_bits/TB_subtrator_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_subtrator_32_bits
-
-Top level modules:
-	TB_subtrator_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/detector_de_flags/detector_de_flags.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module detector_de_flags
-
-Top level modules:
-	detector_de_flags
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/not_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/not_32_bits/not_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module not_32_bits
-
-Top level modules:
-	not_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/xor_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/xor_32_bits/xor_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module xor_32_bits
-
-Top level modules:
-	xor_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/extensor_de_sinal/extensor_de_sinal.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module extensor_de_sinal
-
-Top level modules:
-	extensor_de_sinal
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/TB_banco_de_registradores.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/banco_de_registradores/TB_banco_de_registradores.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_banco_de_registradores
-
-Top level modules:
-	TB_banco_de_registradores
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/TB_and_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/and_32_bits/TB_and_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module TB_and_32_bits
-
-Top level modules:
-	TB_and_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/shifter_right_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/shifter_right_32_bits/shifter_right_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module shifter_right_32_bits
-
-Top level modules:
-	shifter_right_32_bits
-
-} {} {}} D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v {1 {vlog -work work D:/Workspaces/Github/PBL-SD-2/Components/ula_32_bits/ula_32_bits.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module ula_32_bits
-
-Top level modules:
-	ula_32_bits
 
 } {} {}}

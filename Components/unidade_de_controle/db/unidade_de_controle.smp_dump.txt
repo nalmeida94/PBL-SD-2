@@ -1,11 +1,9 @@
 
-State Machine - |unidade_de_controle|CurrentState
-Name CurrentState.STATE_7_PlaceHolder CurrentState.STATE_6_PlaceHolder CurrentState.STATE_5_PlaceHolder CurrentState.STATE_4 CurrentState.STATE_3 CurrentState.STATE_2 CurrentState.STATE_1 CurrentState.STATE_Initial 
-CurrentState.STATE_Initial 0 0 0 0 0 0 0 0 
-CurrentState.STATE_1 0 0 0 0 0 0 1 1 
-CurrentState.STATE_2 0 0 0 0 0 1 0 1 
-CurrentState.STATE_3 0 0 0 0 1 0 0 1 
-CurrentState.STATE_4 0 0 0 1 0 0 0 1 
-CurrentState.STATE_5_PlaceHolder 0 0 1 0 0 0 0 1 
-CurrentState.STATE_6_PlaceHolder 0 1 0 0 0 0 0 1 
-CurrentState.STATE_7_PlaceHolder 1 0 0 0 0 0 0 1 
+State Machine - |unidade_de_controle|State
+Name State.STATE_5_WB State.STATE_4_MEM State.STATE_3_EXE State.STATE_2_ID State.STATE_1_IF State.STATE_Initial_Reset 
+State.STATE_Initial_Reset 0 0 0 0 0 0 
+State.STATE_1_IF 0 0 0 0 1 1 
+State.STATE_2_ID 0 0 0 1 0 1 
+State.STATE_3_EXE 0 0 1 0 0 1 
+State.STATE_4_MEM 0 1 0 0 0 1 
+State.STATE_5_WB 1 0 0 0 0 1 

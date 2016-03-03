@@ -1,5 +1,5 @@
 Flow report for banco_de_registradores
-Thu Feb 25 23:14:06 2016
+Thu Mar 03 05:32:09 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,13 +40,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Feb 25 23:14:00 2016           ;
+; Flow Status                        ; Successful - Thu Mar 03 05:32:02 2016           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; banco_de_registradores                          ;
 ; Top-level Entity Name              ; banco_de_registradores                          ;
 ; Family                             ; Cyclone IV GX                                   ;
-; Total logic elements               ; 898 / 21,280 ( 4 % )                            ;
-;     Total combinational functions  ; 705 / 21,280 ( 3 % )                            ;
+; Total logic elements               ; 957 / 21,280 ( 4 % )                            ;
+;     Total combinational functions  ; 706 / 21,280 ( 3 % )                            ;
 ;     Dedicated logic registers      ; 576 / 21,280 ( 3 % )                            ;
 ; Total registers                    ; 576                                             ;
 ; Total pins                         ; 112 / 167 ( 67 % )                              ;
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +-------------------+------------------------+
 ; Option            ; Setting                ;
 +-------------------+------------------------+
-; Start date & time ; 02/25/2016 23:13:22    ;
+; Start date & time ; 03/03/2016 05:31:23    ;
 ; Main task         ; Compilation            ;
 ; Revision Name     ; banco_de_registradores ;
 +-------------------+------------------------+
@@ -79,7 +79,7 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+--------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 66485671310501.145645280205360 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 66485671310501.145699388306528 ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top        ;
@@ -92,11 +92,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:05     ; 1.0                     ; 488 MB              ; 00:00:05                           ;
-; Fitter                    ; 00:00:25     ; 1.0                     ; 805 MB              ; 00:00:24                           ;
+; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 487 MB              ; 00:00:05                           ;
+; Fitter                    ; 00:00:26     ; 1.0                     ; 803 MB              ; 00:00:23                           ;
 ; Assembler                 ; 00:00:03     ; 1.0                     ; 475 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 482 MB              ; 00:00:05                           ;
-; Total                     ; 00:00:38     ; --                      ; --                  ; 00:00:37                           ;
+; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 491 MB              ; 00:00:05                           ;
+; Total                     ; 00:00:40     ; --                      ; --                  ; 00:00:36                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

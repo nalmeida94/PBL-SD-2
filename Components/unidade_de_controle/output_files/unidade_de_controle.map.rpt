@@ -1,5 +1,5 @@
 Analysis & Synthesis report for unidade_de_controle
-Thu Feb 25 16:29:39 2016
+Thu Mar 03 15:26:05 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -13,13 +13,11 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |unidade_de_controle|CurrentState
+  8. State Machine - |unidade_de_controle|State
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Elapsed Time Per Partition
- 14. Analysis & Synthesis Messages
+ 10. General Register Statistics
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -45,16 +43,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Feb 25 16:29:39 2016           ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 03 15:26:05 2016           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; unidade_de_controle                             ;
 ; Top-level Entity Name              ; unidade_de_controle                             ;
 ; Family                             ; Cyclone IV GX                                   ;
-; Total logic elements               ; 9                                               ;
-;     Total combinational functions  ; 9                                               ;
-;     Dedicated logic registers      ; 4                                               ;
-; Total registers                    ; 4                                               ;
-; Total pins                         ; 9                                               ;
+; Total logic elements               ; 17                                              ;
+;     Total combinational functions  ; 12                                              ;
+;     Dedicated logic registers      ; 6                                               ;
+; Total registers                    ; 6                                               ;
+; Total pins                         ; 16                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -172,18 +170,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------+---------+
 
 
-+-------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary     ;
-+--------------------------+----------------------+
-; Resource                 ; Usage                ;
-+--------------------------+----------------------+
-; I/O pins                 ; 9                    ;
-; DSP block 9-bit elements ; 0                    ;
-; Maximum fan-out node     ; CurrentState.STATE_2 ;
-; Maximum fan-out          ; 5                    ;
-; Total fan-out            ; 51                   ;
-; Average fan-out          ; 1.65                 ;
-+--------------------------+----------------------+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------+------------------+
+; Resource                 ; Usage            ;
++--------------------------+------------------+
+; I/O pins                 ; 16               ;
+; DSP block 9-bit elements ; 0                ;
+; Maximum fan-out node     ; Opcode[0]~input  ;
+; Maximum fan-out          ; 9                ;
+; Total fan-out            ; 79               ;
+; Average fan-out          ; 1.58             ;
++--------------------------+------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -191,26 +189,24 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name  ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+--------------+
-; |unidade_de_controle       ; 9 (9)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 9    ; 0            ; |unidade_de_controle ; work         ;
+; |unidade_de_controle       ; 12 (12)           ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 16   ; 0            ; |unidade_de_controle ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |unidade_de_controle|CurrentState                                                                                                                                                                                                                  ;
-+----------------------------------+----------------------------------+----------------------------------+----------------------------------+----------------------+----------------------+----------------------+----------------------+----------------------------+
-; Name                             ; CurrentState.STATE_7_PlaceHolder ; CurrentState.STATE_6_PlaceHolder ; CurrentState.STATE_5_PlaceHolder ; CurrentState.STATE_4 ; CurrentState.STATE_3 ; CurrentState.STATE_2 ; CurrentState.STATE_1 ; CurrentState.STATE_Initial ;
-+----------------------------------+----------------------------------+----------------------------------+----------------------------------+----------------------+----------------------+----------------------+----------------------+----------------------------+
-; CurrentState.STATE_Initial       ; 0                                ; 0                                ; 0                                ; 0                    ; 0                    ; 0                    ; 0                    ; 0                          ;
-; CurrentState.STATE_1             ; 0                                ; 0                                ; 0                                ; 0                    ; 0                    ; 0                    ; 1                    ; 1                          ;
-; CurrentState.STATE_2             ; 0                                ; 0                                ; 0                                ; 0                    ; 0                    ; 1                    ; 0                    ; 1                          ;
-; CurrentState.STATE_3             ; 0                                ; 0                                ; 0                                ; 0                    ; 1                    ; 0                    ; 0                    ; 1                          ;
-; CurrentState.STATE_4             ; 0                                ; 0                                ; 0                                ; 1                    ; 0                    ; 0                    ; 0                    ; 1                          ;
-; CurrentState.STATE_5_PlaceHolder ; 0                                ; 0                                ; 1                                ; 0                    ; 0                    ; 0                    ; 0                    ; 1                          ;
-; CurrentState.STATE_6_PlaceHolder ; 0                                ; 1                                ; 0                                ; 0                    ; 0                    ; 0                    ; 0                    ; 1                          ;
-; CurrentState.STATE_7_PlaceHolder ; 1                                ; 0                                ; 0                                ; 0                    ; 0                    ; 0                    ; 0                    ; 1                          ;
-+----------------------------------+----------------------------------+----------------------------------+----------------------------------+----------------------+----------------------+----------------------+----------------------+----------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |unidade_de_controle|State                                                                                                             ;
++---------------------------+------------------+-------------------+-------------------+------------------+------------------+---------------------------+
+; Name                      ; State.STATE_5_WB ; State.STATE_4_MEM ; State.STATE_3_EXE ; State.STATE_2_ID ; State.STATE_1_IF ; State.STATE_Initial_Reset ;
++---------------------------+------------------+-------------------+-------------------+------------------+------------------+---------------------------+
+; State.STATE_Initial_Reset ; 0                ; 0                 ; 0                 ; 0                ; 0                ; 0                         ;
+; State.STATE_1_IF          ; 0                ; 0                 ; 0                 ; 0                ; 1                ; 1                         ;
+; State.STATE_2_ID          ; 0                ; 0                 ; 0                 ; 1                ; 0                ; 1                         ;
+; State.STATE_3_EXE         ; 0                ; 0                 ; 1                 ; 0                ; 0                ; 1                         ;
+; State.STATE_4_MEM         ; 0                ; 1                 ; 0                 ; 0                ; 0                ; 1                         ;
+; State.STATE_5_WB          ; 1                ; 0                 ; 0                 ; 0                ; 0                ; 1                         ;
++---------------------------+------------------+-------------------+-------------------+------------------+------------------+---------------------------+
 
 
 +------------------------------------------------------------+
@@ -218,24 +214,11 @@ Encoding Type:  One-Hot
 +---------------------------------------+--------------------+
 ; Register name                         ; Reason for Removal ;
 +---------------------------------------+--------------------+
-; CurrentState.STATE_5_PlaceHolder      ; Lost fanout        ;
-; CurrentState.STATE_6_PlaceHolder      ; Lost fanout        ;
-; CurrentState.STATE_7_PlaceHolder      ; Lost fanout        ;
-; CurrentState~2                        ; Lost fanout        ;
-; CurrentState~3                        ; Lost fanout        ;
-; CurrentState~4                        ; Lost fanout        ;
-; CurrentState.STATE_4                  ; Lost fanout        ;
-; Total Number of Removed Registers = 7 ;                    ;
+; State~3                               ; Lost fanout        ;
+; State~4                               ; Lost fanout        ;
+; State~5                               ; Lost fanout        ;
+; Total Number of Removed Registers = 3 ;                    ;
 +---------------------------------------+--------------------+
-
-
-+------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                  ;
-+----------------+--------------------+----------------------------------------+
-; Register name  ; Reason for Removal ; Registers Removed due to This Register ;
-+----------------+--------------------+----------------------------------------+
-; CurrentState~2 ; Lost Fanouts       ; CurrentState.STATE_4                   ;
-+----------------+--------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -243,7 +226,7 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 4     ;
+; Total registers                              ; 6     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -253,21 +236,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output        ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
-; 8:1                ; 5 bits    ; 25 LEs        ; 20 LEs               ; 5 LEs                  ; No         ; |unidade_de_controle|CurrentState ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
-
-
 +-------------------------------+
 ; Elapsed Time Per Partition    ;
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -277,28 +251,33 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Feb 25 16:29:36 2016
+    Info: Processing started: Thu Mar 03 15:26:04 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off unidade_de_controle -c unidade_de_controle
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file unidade_de_controle.v
     Info (12023): Found entity 1: unidade_de_controle
 Info (12127): Elaborating entity "unidade_de_controle" for the top level hierarchy
-Warning (10270): Verilog HDL Case Statement warning at unidade_de_controle.v(45): incomplete case statement has no default case item
-Info (10264): Verilog HDL Case Statement information at unidade_de_controle.v(45): all case item expressions in this case statement are onehot
+Warning (10235): Verilog HDL Always Construct warning at unidade_de_controle.v(96): variable "Opcode" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at unidade_de_controle.v(205): variable "Opcode" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at unidade_de_controle.v(314): variable "Opcode" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at unidade_de_controle.v(423): variable "Opcode" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at unidade_de_controle.v(532): variable "Opcode" is read inside the Always Construct but isn't in the Always Construct's Event Control
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "Status[2]" is stuck at GND
+    Warning (13410): Pin "UC_MEM_INST_WE" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 7 registers lost all their fanouts during netlist optimizations.
+Info (17049): 3 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 18 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 9 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 498 megabytes
-    Info: Processing ended: Thu Feb 25 16:29:39 2016
-    Info: Elapsed time: 00:00:03
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "Reset"
+Info (21057): Implemented 33 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 5 input pins
+    Info (21059): Implemented 11 output pins
+    Info (21061): Implemented 17 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 499 megabytes
+    Info: Processing ended: Thu Mar 03 15:26:05 2016
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:02
 
 

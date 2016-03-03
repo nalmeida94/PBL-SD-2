@@ -20,7 +20,8 @@ entity ula_32_bits is
         Opcode_sub_dec  : vl_logic_vector(0 to 4) := (Hi0, Hi1, Hi1, Hi1, Hi1);
         Opcode_dec_A    : vl_logic_vector(0 to 4) := (Hi1, Hi0, Hi0, Hi0, Hi0);
         Opcode_lsl      : vl_logic_vector(0 to 4) := (Hi1, Hi0, Hi0, Hi0, Hi1);
-        Opcode_rsl      : vl_logic_vector(0 to 4) := (Hi1, Hi0, Hi0, Hi1, Hi0)
+        Opcode_rsl      : vl_logic_vector(0 to 4) := (Hi1, Hi0, Hi0, Hi1, Hi0);
+        Opcode_asr      : vl_logic_vector(0 to 4) := (Hi1, Hi0, Hi0, Hi1, Hi1)
     );
     port(
         Selection       : in     vl_logic_vector(4 downto 0);
@@ -54,4 +55,5 @@ entity ula_32_bits is
     attribute mti_svvh_generic_type of Opcode_dec_A : constant is 1;
     attribute mti_svvh_generic_type of Opcode_lsl : constant is 1;
     attribute mti_svvh_generic_type of Opcode_rsl : constant is 1;
+    attribute mti_svvh_generic_type of Opcode_asr : constant is 1;
 end ula_32_bits;

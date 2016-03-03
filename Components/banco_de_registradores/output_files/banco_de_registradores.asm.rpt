@@ -1,5 +1,5 @@
 Assembler report for banco_de_registradores
-Thu Feb 25 23:14:00 2016
+Thu Mar 03 05:32:02 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Feb 25 23:14:00 2016 ;
+; Assembler Status      ; Successful - Thu Mar 03 05:32:02 2016 ;
 ; Revision Name         ; banco_de_registradores                ;
 ; Top-level Entity Name ; banco_de_registradores                ;
 ; Family                ; Cyclone IV GX                         ;
@@ -92,8 +92,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                                                                          ;
 +----------------+------------------------------------------------------------------------------------------------------------------+
 ; Device         ; EP4CGX22CF19C6                                                                                                   ;
-; JTAG usercode  ; 0x00218DAF                                                                                                       ;
-; Checksum       ; 0x00218DAF                                                                                                       ;
+; JTAG usercode  ; 0x0021B674                                                                                                       ;
+; Checksum       ; 0x0021B674                                                                                                       ;
 +----------------+------------------------------------------------------------------------------------------------------------------+
 
 
@@ -103,13 +103,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Feb 25 23:13:57 2016
+    Info: Processing started: Thu Mar 03 05:31:59 2016
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off banco_de_registradores -c banco_de_registradores
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 475 megabytes
-    Info: Processing ended: Thu Feb 25 23:14:00 2016
+    Info: Processing ended: Thu Mar 03 05:32:02 2016
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

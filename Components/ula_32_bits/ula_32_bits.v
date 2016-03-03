@@ -33,10 +33,9 @@ parameter
 				Opcode_dec_A 			= 5'd16,
 				//SHIFTERS
 				Opcode_lsl 				= 5'd17,
-				Opcode_rsl 				= 5'd18
+				Opcode_rsl 				= 5'd18,
+				Opcode_asr 				= 5'd19
 				;
-
-
 	
 input [31:0] Data_A, Data_B;
 input [4:0] Selection;
@@ -49,7 +48,6 @@ wire Seletion_Sum_Sub, Enable_overflow, Overflow_wire, Zero_wire, Signal_A, Sign
 
 output reg [31:0] Data_out;
 output reg Overflow, Signal, Carry_out, Zero, Ready;
-
 
 
 initial begin
@@ -183,6 +181,9 @@ always @( * ) begin
 			Opcode_rsl: begin
 				Data_out[31:0] = Data_A[31:0] >> Data_B[31:0];
 			end			
+			Opcode_rsl: begin
+				Data_out[31:0] = Data_A[31:0] >>> Data_B[31:0];
+			end
 		endcase
 		
 		//Sending the signal of the selected operation ends
